@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bookaholic</title>
+    <link rel="icon" href="Libro.png">
+    <link rel="stylesheet" href="revista.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coustard:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mohave:wght@300&display=swap" rel="stylesheet">
+    <!--Este link es para poder usar las clases de la pagina font awesome para los iconos. Pero como no queria hacer una cuenta, este link permite usar esas clases -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!--COMIENZA LA CABECERA contendra el logo, fecha, nombre de la revista y boton de registro -->
+    <div class="cabecera">
+      <div class="botones_cabecera">
+        <button type="button" value="boton normal" name="registro" id="registro">Registro</button>
+        <button type="button" value="boton normal" name="LogIn" id="registro">Log In</button>
+      </div>
+        <h1 class="titulo">Bookaholic </h1>
+    </div>
+    <!-- MENU de cabecera -->
+    <div class="menu_cabecera" >
+        <button type="button" name="button" id="menu_boton">Inicio</button>
+        <button type="button" name="button" id="menu_boton">Entrevistas</button>
+        <button type="button" name="button" id="menu_boton">Reseñas</button>
+        <button type="button" name="button" id="menu_boton">Articulos</button>
+        <button type="button" name="button" id="menu_boton">Ebooks</button>
+    </div>
+    <div class="principal">
+      <table class="noticia_principal">
+        <tr>
+          <td id="imagen_noticia"><img src="https://infoliteraria.com/wp-content/uploads/2021/04/actores-a-traves-de-mi-ventana.jpg.webp" alt=""></td>
+          <td id="titulo_noticia">
+            <h1 class="titulo_not">'A través de mi ventana': todo sobre la adaptación a la pantalla del fenómeno literario que prepara Netflix</h1>
+            <img id="linea"src="linea.png">
+            <p>Clara Galle y Julio Peña Fernández son los protagonistas de esta historia de amor adolescente</p>
+          </td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td id="">
+            <table class="noticias_destacadas">
+              <tr>
+                <td id="destacadas">Noticias destacadas</td>
+              </tr>
+              <tr>
+                <!--target="_blank" sirve para que el link se abra en una nueva ventana-->
+                <td id="noticia"> <a target="_blank" href="https://www.elperiodico.com/es/ocio-y-cultura/20211108/ken-follet-nunca-tercera-guerra-mundial-12772539">Ken Follet lanza 'Nunca': ¿Hacia la tercera guerra mundial?s </a> </td>
+              </tr>
+              <tr>
+                <td id="noticia"> <a target="_blank" href="https://www.elperiodico.com/es/ocio-y-cultura/20211107/subgeneros-proliferacion-novela-negra-12222161s"> ¿Por qué hay tantos subgéneros dentro de la novela negra?</a> </td>
+              </tr>
+              <tr>
+                <td id="noticia"><a target="_blank" href="https://vandal.elespanol.com/noticia/r13320/el-universo-de-james-bond-continuara-con-una-saga-de-libros-con-perspectiva-feminista">El universo de James Bond continuara con una saga de libros con perspectiva</a></td>
+              </tr>
+              <tr>
+                <td id="noticia"><a target="_blank" href="https://www.eleconomista.es/empresas-finanzas/noticias/11447780/10/21/Las-ventas-de-libros-alcanzan-maximos-de-la-decada-y-las-editoriales-se-preparan-para-una-Navidad-historica.html">Las ventas de libros alcanzan máximos de la década y las editoriales se preparan para una Navidad histórica </a></td>
+              </tr>
+              <tr>
+                <td id="noticia"><a target="_blank" href="https://www.elle.com/es/living/ocio-cultura/g37998829/mejores-libros-miedo/">Los 50 mejores libros de miedo</a></td>
+              </tr>
+              <tr>
+                <td id="noticia"><a target="_blank" href="https://elpais.com/cultura/2021-11-04/las-editoriales-publican-mas-libros-de-hombres-pero-los-de-mujeres-ya-venden-mas.html">Las editoriales publican máss libros de hombres, pero las mujeres se venden mejor</a></td>
+              </tr>
+              <tr>
+                <td id="noticia"><a target="_blank" href="https://www.eldigitaldealbacete.com/2021/11/06/en-que-orden-leer-los-libros-de-dune-la-saga-del-momento/">En qué orden leer los libros de Dunhe, la saga del momento</a></td>
+              </tr>
+            </table>
+          </td>
+          <td colspan="2" class="cuerpo_not">
+            <p>A través de mi ventana, la primera de las novelas de la trilogía Hermanos Hidalgo de Ariana Godoy,
+              es la próxima adaptación a la pantalla de un libro que prepara Netflix. Tras el innegable éxito de Valeria o Fuimos canciones,
+              de Elísabet Benavent, Los Bridgerton, de Julia Quinn, o El desorden que dejas, de Carlos Montero,
+              ahora llega el turno de este fenómeno que comenzó en Wattpad, la plataforma de autoedición de internet,
+              y dio el salto a las librerías en 2019. Te contamos todo lo que debes saber antes de su estreno.
+            </p>
+            <br>
+            <h4>¿Sobre quétrata 'A traves de mi ventana'?</h4>
+            <br>
+            <p>La novela (y la película que reproducirá fielmente lo que se puede leer en ella) cuenta la historia de Raquel,
+              una adolescente que está perdidamente enamorada de su vecino, Ares. Lo observa en secreto, conoce todos sus pasos y,
+              a pesar de no haber interactuado con él, está dispuesta a hacer todo lo posible para que él se enamore también de ella. </p>
+            <br>
+            <p>A partir de entonces comenzará un juego de seducción que continúa en otros dos volúmenes, A través de ti y a A través de la lluvia, representado en las historias de los hermanos de Ares, Artemis y Apolo.</p>
+              <br>
+            <h4>¿Quiénes son sus protagonistas?</h4>
+            <br>
+            <p>Clara Galle es la actriz que interpreta a Raquel. Con tan solo 19 años, acumula casi un millón de seguidores en Instagram.
+              Este papel será el primero con el que dé el salto a la interpretación, aunque también está confirmada su presencia en la segunda temporada
+              de El internado: Las Cumbres, el reboot de El internado que se puede ver en Prime Video.</p>
+              <br>
+            <p>Julio Peña Fernández, por su lado, es quien dará vida a Ares en la pantalla. Ha participado en series de corte juvenil de Disney Channel,
+              en la producción diaria Acacias 38 y ha aparecido en el clip musical de la canción Berlín de Aitana. Supera por algunos cientos de miles a su
+              compañera en el número de seguidores en su cuenta de Instagram y tiene tan solo 21 años.</p>
+            <br>
+            <h4>¿Se puede ver el tráiler?</h4>
+            <br>
+            <p>¡Sí! Y deja muy poco a la imaginación. Esta no va a ser una historia precisamente mojigata… </p>
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6X3iSRonMX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+            <br>
+            <h4>¿cuándo se estrena?</h4>
+            <br>
+            <p>El 4 de febrero de 2022 es la fecha escogida para el lanzamiento de A través de mi ventana.</p>
+            <br>
+            <br>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="pie_pagina">
+      <table class="tabla_footer">
+        <tr>
+          <td id="imagen_logo"><img src="libros.png" alt="" id="logo"></td>
+          <td id="tabla_contacto">
+            <table class="contacto">
+              <tr>
+                <td id="footer"><h4>Bookaholic</h4></td>
+                <td id="footer"><h4>About us</h4></td>
+                <td id="footer"><h4>Informacion adicional</h4></td>
+                <td id="footer"><h4>Siguenos</h4></td>
+              </tr>
+              <tr>
+                <td><img src="copyright.png" alt="" id="cr">2021</td>
+                <td><br>Contactanos</td>
+                <td><br>Terminos y condiciones</td>
+                <td><br>
+                  <!--Clase para usar icono de twitter(No hecha por mi)-->
+                  <button type="button" name="button" class="iconos" ><i class="fab fa-twitter"></i></button>
+                  <button type="button" name="button" class="iconos"><i class="fab fa-facebook-f"></i></button>
+                  <button type="button" name="button" class="iconos"><i class="fab fa-reddit-alien"></i></button>
+                  <button type="button" name="button" class="iconos"><i class="fab fa-instagram"></i></button>
+
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Unete a nosotros</td>
+                <td>Política de privacidad</td>
+                <td></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
