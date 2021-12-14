@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sistemas informáticos</title>
+    <link rel="icon" href="archivo.png">
+    <link rel="stylesheet" href="pagina2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=Josefin+Sans&family=Mohave:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran&family=IBM+Plex+Serif:wght@600&family=Josefin+Sans&family=Mohave:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="Cabecera">
+      <h1>Sistemas informáticos</h1>
+      <ul class="botones_cabecera">
+        <li class="boton"><a href="principal.html">Inicio</a></li>
+        <li class="boton"><a href="pagina1.html">Organización</a></li>
+        <li class="boton"><a href="pagina2.html">Seguridad</a></li>
+        <li class="boton"><a href="pagina3.html">Documentación</a></li>
+      </ul>
+    </div>
+    <div class="Cuerpo">
+      <h2>Mecanismos de seguridad y protección</h2>
+      <p class="parrafo">El sistema operativo debe protegerse activamente a sí mismo y a los usuarios de acciones accidentales o malintencionadas. Hay que distinguir entre: </p>
+      <p class="def"><span>Seguridad: </span> Política donde se deciden que accesos estan permitidos, que usuarios pueden acceder, en que forma y a que recursos.</p>
+      <p class="def"><span>Protección: </span>Mecanismo que se utiliza para llevar a cabo la política de seguridad.</p>
+      <table class="tabla_requisitos">
+        <tr>
+          <td class="requisitos">
+            <table>
+              <tr>
+                <p class="elemento">Los requisitos que debe cumplir un sistema operativo son:</p>
+                <th class="requisito">Confidencialidad</th>
+                <th class="requisito">Integridad</th>
+                <th class="requisito">Disponibilidad</th>
+              </tr>
+              <tr>
+                <td class="req_def">Los elementos solo seran visibles por aquellos usuarios o grupos autorizados.</td>
+                <td class="req_def">Los elementos solo serán modificados por los usuarios o grupos autorizados.</td>
+                <td class="req_def">Los elementos solo estarán disponibles para usuarios y grupos autorizados.</td>
+              </tr>
+            </table>
+          </td>
+          <td class="amenazas">
+            <p class="elemento">Los elementos amenzados son:</p>
+            <ul>
+              <li class="elementos">Hardware</li>
+              <li class="elementos">Software</li>
+              <li class="elementos">Datos</li>
+              <li class="elementos">Lineas de comunicación</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+
+      <div class="tabla_req">
+        <table class="tabla_amenazas">
+          <tr>
+            <th class="tabla_titulo">Elemento amenzado</th>
+            <th class="tabla_titulo">Confidencialidad</th>
+            <th class="tabla_titulo">Integridad</th>
+            <th class="tabla_titulo">Disponibilidad</th>
+          </tr>
+          <tr>
+            <td class="tabla_titulo2">Hardware</td>
+            <td></td>
+            <td></td>
+            <td>Robo o sobrecarga</td>
+          </tr>
+          <tr>
+            <td class="tabla_titulo2">Software</td>
+            <td>Copias no autorizadas.</td>
+            <td>Alterar el programa para que no funcione correctamente.</td>
+            <td>Eliminacion de programas. Denegar acceso a los usuarios.</td>
+          </tr>
+          <tr>
+            <td class="tabla_titulo2">Datos</td>
+            <td>Lectura no autorizada. Revelar datos ocultos.</td>
+            <td>Modificar archivos. Crear nuevos archivos.</td>
+            <td>Eliminación de programas. Denegar acceso a usuarios.</td>
+          </tr>
+          <tr>
+            <td class="tabla_titulo2">Lineas de comunicación</td>
+            <td>Lectura de mensajes. Observar el tráfico de mensajes.</td>
+            <td>Mensajes modificados, retardados, reordenados o duplicados.</td>
+            <td>Destrucción o eliminación de mensajes. Líneas de comunicacion o redes no están disponibles. </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="seguridad">
+        <p class="parrafo">La seguridad se agrupa en tres elementos.</p>
+        <dl class="lista_seguridad">
+          <dt>Seguridad en el uso de recursos y servicios y control de acceso:</dt>
+          <dd>Mecanismo de control que tan solo permita el acceso si existe el permiso correspondiente. Se estableceran políticas de persmisos
+          para acceder y operar con recursos y servicios.</dd>
+          <dt>Seguridad en el acceso al sistema:</dt>
+          <dd>Asegurar que solo entran los usuarios autorizados. Se usarán contraseñas con niveles de acceso.</dd>
+          <dt>Seguridad en el uso de redes:</dt>
+          <dd>Evitar alteraciones en los datos que viajan por la red. Se aplicaran tecnicas de cifrado y descifrado de las comunicaciones a través de la red. </dd>
+        </dl>
+      </div>
+      <img src="Esquema2.png" alt="" class="Esquema">
+    </div>
+    <div class="pie_pagina">
+      <table class="tabla_pie">
+        <tr>
+          <td class="imgicon"><img src="archivo.png" alt="" class="icono"></td>
+          <td class="">
+            <table class="tabla_pie">
+              <tr>
+                <th>SSII</th>
+                <td class="descarga">Descargas</td>
+              </tr>
+              <tr>
+                <td ><img src="copyright.png" alt="" class="imgcopy">2021</td>
+                <td class="descargapdf"><img src="pdf.png" alt="" class="imgpdf"><a href="Tarea01.pdf" download class="pdf">Esquema</a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td class="descargapdf"><img src="pdf.png" alt="" class="imgpdf"><a href="Resumen.pdf" download class="pdf">Resumen</a></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+    </div>
+  </body>
+</html>

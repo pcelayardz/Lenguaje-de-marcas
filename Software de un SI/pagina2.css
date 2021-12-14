@@ -1,0 +1,200 @@
+*{
+  font-family: Comfortaa;
+  margin: 0;
+}
+
+/* Cabecera */
+.Cabecera{
+  text-align: center;
+  background-image: url(https://www.grupoioe.es/wp-content/uploads/2019/09/security-1024x494.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1700px;
+  height: 300px;
+}
+h1{
+  padding-top: 100px;
+  font-size: 80px;
+  font-family: IBM Plex Serif;
+  color: white;
+}
+.botones_cabecera{
+  list-style: none;
+  padding-top: 35px;
+  text-align: center;
+}
+
+.boton{
+  border-radius: 4px;
+  display: inline;
+  text-align: center;
+  background-color: #ECE1FD;
+  padding: 10px 40px 10px 40px;
+}
+
+.boton:hover{
+  background-color: #CCC0DF;
+}
+
+a{
+  text-decoration: none;
+  color: purple;
+  font-size: 20px;
+}
+
+/* Cuerpo */
+
+h2{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Catamaran;
+  font-size: 40px;
+  background-color: #F2CC9B;
+}
+
+.Cuerpo{
+  background-color: #C6B8EE;
+}
+
+.def{
+  margin: 2% 20% 2% 20%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 1000px;
+  text-align: center;
+  background-color: #D7F3D9;
+}
+
+span{
+  font-weight: bold;
+}
+ .parrafo{
+   text-align: center;
+   padding-top: 50px;
+   padding-bottom: 20px;
+ }
+p{
+  text-align: center;
+  /*padding-top: 50px;*/
+  padding-bottom: 40px;
+}
+.tabla_req{
+  padding:60px;
+  background-color:  #B8E4E7;
+}
+.tabla_requisitos{
+  margin-top:80px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.requisitos{
+  width: 70%;
+  padding: 40px;
+  background-color: #F0C9EF;
+}
+.amenazas{
+  width: 30%;
+  background-color: #E5BEE4;
+}
+.elemento{
+  margin-left: 100px;
+  text-align: left;
+}
+.elementos{
+  /*display: inline;*/
+    margin-left: 100px;
+  padding-top: 5px;
+  list-style-type: square;
+}
+
+.requisito{
+  padding: 5px 0px 5px 0px;
+  border: 2px;
+  border-top-style: dotted ;
+  border-bottom-style: dotted;
+}
+.req_def{
+  padding: 10px 0px 0px 0px;
+}
+.tabla_amenazas{
+  width: 100%;
+  background-color: #B8E4E7;
+  border-collapse: collapse;
+  border: 1px dashed white;
+}
+.tabla_titulo{
+  width: 25%;
+  padding: 10px;
+  border: 1px white;
+  border-bottom-style: dashed;
+  background-color: #AFD7D9;
+}
+
+.tabla_titulo2{
+  width: 25%;
+  padding-top:20px;
+  padding-bottom: 20px;
+  border: 1px white;
+  border-right-style: dashed;
+  background-color: #A5CBCD;
+}
+td{
+  padding-left: 10px;
+}
+
+.seguridad{
+  background-color: #FDE2D2;
+}
+dl{
+  padding: 20px 80px 60px 80px;;
+}
+dt{
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+dd{
+  padding-bottom: 10px;
+  margin-left: 20px;
+}
+
+.Esquema{
+  margin: 2% 0% 2% 25% ;
+  border-radius: 10px;
+  width: 900px;
+}
+/* Pie de pagina */
+.tabla_pie{
+  background-color: #F3F0A4 ;
+  width: 100%;
+}
+.icono{
+  padding-left: 40px;
+  height: 60px;
+}
+.imgpdf{
+  height: 30px;
+}
+.imgcopy{
+  height: 20px;
+}
+.descarga{
+  padding-right: 20px;
+  text-align: right;
+  font-weight: bold;
+}
+.descargapdf{
+  padding-right: 20px;
+  text-align: right;
+}
+th{
+  text-align: left;
+}
+.pdf{
+  color: black;
+  font-size: 15px;
+}
+.pdf:hover{
+  color:grey;
+}

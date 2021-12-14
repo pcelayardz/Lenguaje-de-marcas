@@ -1,0 +1,121 @@
+*{
+  font-family: Comfortaa;
+  margin: 0;
+}
+
+.Cabecera{
+  text-align: center;
+  background-image: url(https://www.grupoioe.es/wp-content/uploads/2019/09/security-1024x494.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1700px;
+  height: 300px;
+}
+h1{
+  padding-top: 100px;
+  font-size: 80px;
+  font-family: IBM Plex Serif;
+  color: white;
+}
+img{
+  height: 50px;
+}
+.Cuerpo{
+  background-color: #F2CC9B;
+}
+h2{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Catamaran;
+  font-size: 40px;
+}
+
+.tabla_cuerpo{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.titulo_tabla{
+  padding-bottom: 20px;
+}
+
+.cap1{
+  width: 33.3%;
+  padding: 60px;
+  background-color: #A2DAC6;
+}
+.cap2{
+  width: 33.3%;
+  padding: 60px;
+  background-color: #B7A2DA;
+}
+.cap3{
+  width: 33.3%;
+  padding: 60px;
+  background-color: #D9A2DA;
+}
+.titulo_tabla{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.info{
+  padding-bottom: 20px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+li{
+  text-align: center;
+  border: 1px black solid;
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+  background-color: #8FA3DE;
+  margin-left: 25%;
+}
+li:hover{
+  background-color: #A4B9F3;
+}
+ul{
+  list-style: none;
+  padding-top: 40px;
+  text-align: center;
+  border: 5px;
+}
+
+.tabla_pie{
+  background-color: #F3F0A4 ;
+  width: 100%;
+}
+.icono{
+  padding-left: 40px;
+  height: 60px;
+}
+.imgpdf{
+  height: 30px;
+}
+.imgcopy{
+  height: 20px;
+}
+.descarga{
+  padding-right: 20px;
+  text-align: right;
+  font-weight: bold;
+}
+.descargapdf{
+  padding-right: 20px;
+  text-align: right;
+}
+th{
+  text-align: left;
+}
+.pdf{
+  color: black;
+  font-size: 15px;
+}
+.pdf:hover{
+  color:grey;
+}

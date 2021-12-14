@@ -1,0 +1,172 @@
+*{
+  font-family: Comfortaa;
+  margin: 0;
+}
+
+/* Cabecera */
+.Cabecera{
+  text-align: center;
+  background-image: url(https://www.grupoioe.es/wp-content/uploads/2019/09/security-1024x494.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1700px;
+  height: 300px;
+}
+h1{
+  padding-top: 100px;
+  font-size: 80px;
+  font-family: IBM Plex Serif;
+  color: white;
+}
+.botones_cabecera{
+  list-style: none;
+  padding-top: 35px;
+  text-align: center;
+}
+
+.boton{
+  border-radius: 4px;
+  display: inline;
+  text-align: center;
+  background-color: #ECE1FD;
+  padding: 10px 40px 10px 40px;
+}
+
+.boton:hover{
+  background-color: #CCC0DF;
+}
+
+a{
+  text-decoration: none;
+  color: purple;
+  font-size: 20px;
+}
+
+/* Cuerpo */
+
+.Cuerpo{
+  background-color: #B7A2DA;
+}
+h2{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Catamaran;
+  font-size: 40px;
+  background-color: #F2CC9B;
+}
+
+p{
+  text-align: center;
+  /*padding-top: 50px;*/
+  padding: 40px;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.usuario_th{
+  width:25%;
+  background-color: #92C1B0;
+  padding:10px;
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 20px;
+}
+.usuario_td{
+  width:25%;
+  background-color: #A2DAC6;
+  padding: 0px 40px 0px 40px;
+}
+.instalacion_th{
+  width:25%;
+  background-color: #ABC395;
+  padding:10px;
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 20px;
+}
+.instalacion_td{
+  width:25%;
+  background-color:#C4E1A9;
+  padding: 40px;
+}
+.admin_th{
+  width:25%;
+  background-color: #CB97CC;
+  padding:10px;
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 20px;
+}
+.admin_td{
+  width:25%;
+  background-color: #D9A2DA;
+  padding: 0px 40px 0px 40px;
+}
+.ref_th{
+  width:25%;
+  background-color: #9CC3D1;
+  padding:10px;
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 20px;
+}
+.ref_td{
+  width:25%;
+  background-color: #A8D3E3;
+  padding: 0px 40px 0px 40px;
+}
+
+.ejemplo{
+  margin-left: 25%;
+  padding-bottom: 40px;
+}
+li{
+  list-style-type: square;
+  padding-bottom: 10px;
+}
+
+.imagen{
+  margin-left: 25%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  width: 900px;
+}
+/* Pie de pagina */
+.tabla_pie{
+  background-color: #F3F0A4 ;
+  width: 100%;
+}
+.icono{
+  padding-left: 40px;
+  height: 60px;
+}
+.imgpdf{
+  height: 30px;
+}
+.imgcopy{
+  height: 20px;
+}
+.descarga{
+  padding-right: 20px;
+  text-align: right;
+  font-weight: bold;
+}
+.descargapdf{
+  padding-right: 20px;
+  text-align: right;
+}
+th{
+  text-align: left;
+}
+.pdf{
+  color: black;
+  font-size: 15px;
+}
+.pdf:hover{
+  color:grey;
+}

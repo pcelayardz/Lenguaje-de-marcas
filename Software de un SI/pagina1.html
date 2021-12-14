@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sistemas informáticos</title>
+    <link rel="icon" href="archivo.png">
+    <link rel="stylesheet" href="pagina1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=Josefin+Sans&family=Mohave:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran&family=IBM+Plex+Serif:wght@600&family=Josefin+Sans&family=Mohave:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="Cabecera">
+      <h1>Sistemas informáticos</h1>
+      <ul class="botones_cabecera">
+        <li class="boton"><a href="principal.html">Inicio</a></li>
+        <li class="boton"><a href="pagina1.html">Organización</a></li>
+        <li class="boton"><a href="pagina2.html">Seguridad</a></li>
+        <li class="boton"><a href="pagina3.html">Documentación</a></li>
+      </ul>
+    </div>
+    <div class="Cuerpo">
+      <h2>Organización lógica y física</h2>
+      <table>
+        <tr>
+          <th class="tabla1" id="titulo1">Organización física</th>
+          <th class="tabla2" id="titulo2">Organización lógica</th>
+        </tr>
+        <tr>
+          <td class="tabla1">
+            <p>Los datos son arreglados por su adyacencia física. Los registros son de tamaño fijo o variable, y se organizan de distintas formas.</p>
+          </td>
+          <td class="tabla2">
+            <p>Capa de abstracción que oculta los detalles hardware al usuario y permita usar los datos guardados de forma intuitiva y cómoda.</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="tabla1">
+            <h3>Cinta magnética</h3>
+            <p>El archivo fisico esta formado por un conjunto de registros, los bloque estan organizados en forma consecutiva.</p>
+            <img src="https://siaguanta.com/wp-content/uploads/2020/01/Cintas-magn%C3%A9ticas.jpg" alt="" class="imagen">
+          </td>
+          <td  class="tabla2">
+            <h3>Atributos de los archivos</h3>
+            <ul class="archivos">
+              <li>Nombre</li>
+              <li>Extensión</li>
+              <li>Permisos</li>
+              <li>Creador</li>
+              <li>Propietario</li>
+              <li>Fecha de creación</li>
+              <li>Fecha de último acceso</li>
+              <li>Fecha de última modificación</li>
+              <li>Tamaño actual</li>
+              <li>Directorio</li>
+            </ul>
+            <img src="data:image/png;base64,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" alt="" class="imagen">
+          </td>
+        </tr>
+        <tr>
+          <td class="tabla1">
+            <h3>Discos magnéticos</h3>
+            <p>Es el dispositivo usado por los ordenadores. Almacena la informacion mediante un sistema de grabación magnética. Esta formado por uno o mas discos rigidos dentro de una caja.</p>
+            <img src="https://d500.epimg.net/cincodias/imagenes/2018/10/25/gadgets/1540492290_287908_1540492443_noticia_normal.jpg" alt="" class="imagen">
+          </td>
+          <td class="tabla2"></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <img src="Esquema1.png" alt="" class="Esquema">
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="pie_pagina">
+      <table class="tabla_pie">
+        <tr>
+          <td class="imgicon"><img src="archivo.png" alt="" class="icono"></td>
+          <td class="">
+            <table class="tabla_pie">
+              <tr>
+                <th>SSII</th>
+                <td class="descarga">Descargas</td>
+              </tr>
+              <tr>
+                <td ><img src="copyright.png" alt="" class="imgcopy">2021</td>
+                <td class="descargapdf"><img src="pdf.png" alt="" class="imgpdf"><a href="Tarea01.pdf" download class="pdf">Esquema</a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td class="descargapdf"><img src="pdf.png" alt="" class="imgpdf"><a href="Resumen.pdf" download class="pdf">Resumen</a></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+    </div>
+  </body>
+</html>
